@@ -1,2 +1,47 @@
-# Images folder
-images
+# Python
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local runtime files
+tmp/
+temp/
+logs/
+*.log
+
+# Local images and manual webcam captures
+images/
+data/manual_samples/
+data/uploads/
+
+# Temporary artifacts; keep the production model and committed reports
+artifacts/tmp/
+artifacts/uploads/
+
+# Docker / build artifacts
+*.tar
+*.pid
+build/
+dist/
+*.egg-info/
